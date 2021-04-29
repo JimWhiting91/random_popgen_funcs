@@ -9,3 +9,5 @@ Somewhere to store random, useful, functions/applications for popgen
 pop_AFs <- vcfR2AF(vcf = my_vcfR_object, popmap = my_popmap, n_cores = 4, allele = "REF")
 
 ```
+
+* `rad_popgen_stats()` - Function to calculate Fst, pi, and dxy for rad loci using information on sequenced sites stored in a gff file.
